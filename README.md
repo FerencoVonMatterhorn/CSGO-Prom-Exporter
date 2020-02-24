@@ -60,15 +60,15 @@ services:
       context: CSGO-Prom-Exporter
       dockerfile: Dockerfile
     environment: 
-      - EXPORTERPORT=9092
-      - STEAMID=76561198058292713
-      - STEAMKEY=9425A123F05527E8A0B6CBAD008836FF
+      - EXPORTERPORT=<YourPort>
+      - STEAMID=<YourSteamID>
+      - STEAMKEY=<YourSteamKey>
     restart: unless-stopped
 ```
 
 ## How it Works
 
-The Exporter makes simple API calls to the Steam-API Servers, takes the information and parses it into readable Metrics for Prometheus
+The Exporter makes simple API calls to the Steam-API Servers, takes the information and parses it into readable Metrics for Prometheus.
 
 
 ## TODO
