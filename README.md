@@ -3,7 +3,7 @@
 TODO: Write a project description
 
 ## Installation
-To run the whole stack, just use the docker-compose file with the command 
+To run the whole stack, just use the docker-compose file with the command: 
 ```Dockerfile
 'docker-compose up -d'
 ```
@@ -64,9 +64,16 @@ services:
     restart: unless-stopped
 ```
 
-## Usage
+## How it Works
 
-TODO: Write usage instructions
+The Exporter makes simple API calls to the Steam-API Servers, takes the information and parses it into readable Metrics for Prometheus
+
+
+## TODO
+
+# [checkbox:unchecked] Use smaller Alpine Image
+# [checkbox:unchecked] Import more Metrics
+
 
 ## Contributing
 
