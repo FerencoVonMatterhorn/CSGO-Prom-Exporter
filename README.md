@@ -5,7 +5,7 @@ The CSGO-Exporter is a Prometheus Exporter, written in golang, which lets you se
 ![alt text](https://raw.githubusercontent.com/ferencovonmatterhorn/csgo-prom-exporter/master/dashboard.png)
 
 ## Installation
-To run the whole stack, just change your the credentials in the docker-compose file services.csgo-exporter.environment: and then run the file by typing: 
+To run the whole stack, just change your the credentials in the docker-compose file `services.csgo-exporter.environment:` and then run the file by typing: 
 ```Dockerfile
 'docker-compose up -d'
 ```
