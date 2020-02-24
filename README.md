@@ -3,7 +3,12 @@
 TODO: Write a project description
 
 ## Installation
-To run the whole stack, just use the docker-compose file with the command 'docker-compose up -d' and it will automatically fetch and install Prometheus, Grafana, Node-Exporter, and the CSGO-Exporter.
+To run the whole stack, just use the docker-compose file with the command 
+```Dockerfile
+'docker-compose up -d'
+```
+
+ and it will automatically fetch and install Prometheus, Grafana, Node-Exporter, and the CSGO-Exporter.
 
 ```Dockerfile
 version: '3.3'
