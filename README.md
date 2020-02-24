@@ -1,6 +1,8 @@
 # CSGO-Prometheus-Exporter
 
-TODO: Write a project description
+The CSGO-Exporter is a Prometheus Exporter, written in golang, which lets you see your CSGO Stats, that you wouldnt normally see.
+
+![alt text](https://raw.githubusercontent.com/ferencovonmatterhorn/csgo-prom-exporter/master/dashboard.png)
 
 ## Installation
 To run the whole stack, just use the docker-compose file with the command: 
