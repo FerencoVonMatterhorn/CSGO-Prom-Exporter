@@ -85,6 +85,3 @@ The Exporter makes simple API calls to the Steam-API Servers, takes the informat
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## License
-
-TODO: Write license
