@@ -71,7 +71,7 @@ The Exporter makes simple API calls to the Steam-API Servers, takes the informat
 
 ## TODO
 
-# [checkbox:unchecked] Use smaller Alpine Image
+[checkbox:unchecked] Use smaller Alpine Image
 # [checkbox:unchecked] Import more Metrics
 
 
