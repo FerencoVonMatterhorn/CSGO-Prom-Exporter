@@ -58,9 +58,7 @@ services:
     restart: unless-stopped
  
   csgo-exporter:
-    build:
-      context: CSGO-Prom-Exporter
-      dockerfile: Dockerfile
+    build: ./
     environment: 
       - EXPORTERPORT=<YourPort>
       - STEAMID=<YourSteamID>
@@ -77,6 +75,8 @@ The Exporter makes simple API calls to the Steam-API Servers, takes the informat
 
 - [ ] Use smaller Alpine Image
 - [ ] Import more Metrics
+- [ ] Use go binary for smaller Image Size
+- [ ] Add Env for Loglevel
 
 
 ## Contributing
