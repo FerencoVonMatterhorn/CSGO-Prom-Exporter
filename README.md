@@ -1,10 +1,10 @@
-<div style="text-align:center"><img align="middle" src="https://lh3.googleusercontent.com/proxy/CRbywP1kEljBZjCc7E03iEPXeONbLRopXYdCqBBg1k26sCgGspOpuhCNYSxPDf05GYTRKETMQndRBpbNZFTpfGHpsoKp75mt9Bh5bjvtZK-tPwyZiSOs34I_JAo" /></div>
+<img align="middle" src="https://lh3.googleusercontent.com/proxy/CRbywP1kEljBZjCc7E03iEPXeONbLRopXYdCqBBg1k26sCgGspOpuhCNYSxPDf05GYTRKETMQndRBpbNZFTpfGHpsoKp75mt9Bh5bjvtZK-tPwyZiSOs34I_JAo" />
 
 # CSGO-Prometheus-Exporter
 
 The CSGO-Exporter is a Prometheus Exporter, written in golang, which lets you see your CSGO Stats, that you wouldnt normally see.
 
-![alt text](https://raw.githubusercontent.com/ferencovonmatterhorn/csgo-prom-exporter/master/dashboard.png)
+![img not available](https://raw.githubusercontent.com/ferencovonmatterhorn/csgo-prom-exporter/master/grafana-dashboard.png)
 
 ## Installation
 To run the whole stack, just change your the credentials in the docker-compose file `services.csgo-exporter.environment:` and then run the file by typing: 
