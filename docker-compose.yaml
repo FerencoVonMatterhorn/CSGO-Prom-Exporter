@@ -45,8 +45,8 @@ services:
       context: CSGO-Prom-Exporter
       dockerfile: Dockerfile
     environment: 
-      - EXPORTERPORT=9092
-      - STEAMID=76561198058292713
-      - STEAMKEY=9425A123F05527E8A0B6CBAD008836FF
+      - EXPORTERPORT=<YourPort>
+      - STEAMID=<YourSteamID>
+      - STEAMKEY=<YourSteamKey>
     restart: unless-stopped
 
