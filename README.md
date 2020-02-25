@@ -1,3 +1,5 @@
+<div style="text-align:center"><img src="https://lh3.googleusercontent.com/proxy/CRbywP1kEljBZjCc7E03iEPXeONbLRopXYdCqBBg1k26sCgGspOpuhCNYSxPDf05GYTRKETMQndRBpbNZFTpfGHpsoKp75mt9Bh5bjvtZK-tPwyZiSOs34I_JAo" /></div>
+
 # CSGO-Prometheus-Exporter
 
 The CSGO-Exporter is a Prometheus Exporter, written in golang, which lets you see your CSGO Stats, that you wouldnt normally see.
