@@ -43,7 +43,7 @@ services:
   csgo-exporter:
     build: ./
     environment: 
-      - EXPORTERPORT=<YourPort>
+      - EXPORTERPORT=9092         #Default Port in prometheus/prometheus.yml
       - STEAMID=<YourSteamID>
       - STEAMKEY=<YourSteamKey>
     restart: unless-stopped
