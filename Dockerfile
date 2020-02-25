@@ -13,4 +13,4 @@ FROM alpine:latest AS production
 
 COPY --from=builder /app .
 
-CMD["./csgo-exporter"]
+CMD ["./csgo-exporter"]
