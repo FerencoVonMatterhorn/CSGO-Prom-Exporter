@@ -1,15 +1,16 @@
-FROM golang:latest
+#First Stage
+FROM golang:latest AS builder
 
-WORKDIR /app
+RUN mkdir /app
 
-COPY go.mod .
+ADD . /app
 
-COPY go.sum .
+RUN CGO_ENABLED=0 GOOS=linux go build -o csgo-exporter 
 
-RUN go mod download 
 
-COPY . .
+#Second Stage
+FROM alpine:latest AS production
 
-RUN go build -o csgo-exporter 
+COPY --from=builder /app .
 
-CMD ["/app/csgo-exporter"]
+CMD["./csgo-exporter"]
