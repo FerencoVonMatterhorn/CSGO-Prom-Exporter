@@ -73,9 +73,9 @@ The Exporter makes simple API calls to the Steam-API Servers, takes the informat
 
 ## TODO
 
-- [ ] Use smaller Alpine Image
+- \[ ] Use smaller Alpine Image
 - [ ] Import more Metrics
-- [ ] Use go binary for smaller Image Size
+- \[ ] Use go binary for smaller Image Size
 - [ ] Add Env for Loglevel
 
 
