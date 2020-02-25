@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="https://lh3.googleusercontent.com/proxy/CRbywP1kEljBZjCc7E03iEPXeONbLRopXYdCqBBg1k26sCgGspOpuhCNYSxPDf05GYTRKETMQndRBpbNZFTpfGHpsoKp75mt9Bh5bjvtZK-tPwyZiSOs34I_JAo" /></div>
+<div style="text-align:center"><img align="middle" src="https://lh3.googleusercontent.com/proxy/CRbywP1kEljBZjCc7E03iEPXeONbLRopXYdCqBBg1k26sCgGspOpuhCNYSxPDf05GYTRKETMQndRBpbNZFTpfGHpsoKp75mt9Bh5bjvtZK-tPwyZiSOs34I_JAo" /></div>
 
 # CSGO-Prometheus-Exporter
 
