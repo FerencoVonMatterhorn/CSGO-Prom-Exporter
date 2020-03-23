@@ -178,59 +178,47 @@ func main() {
 
 		for _, stat := range stats.Playerstats.Stats {
 			{
-				if stat.Name == "total_kills" {
+				switch stat.Name {
+				case "total_kills":
 					total_kills.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_deaths" {
+				case "total_deaths":
 					total_deaths.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_wins" {
+				case "total_wins":
 					total_wins.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_deagle" {
+				case "total_kills_deagle":
 					total_kills_deagle.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_awp" {
+				case "total_kills_awp":
 					total_kills_awp.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_ak47" {
+				case "total_kills_ak47":
 					total_kills_ak47.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_aug" {
+				case "total_kills_aug":
 					total_kills_aug.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_famas" {
+				case "total_kills_famas":
 					total_kills_famas.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_headshot" {
+				case "total_kills_headshot":
 					total_kills_headshot.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "last_match_kills" {
+				case "last_match_kills":
 					last_match_kills.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_matches_won" {
+				case "total_matches_won":
 					total_matches_won.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_matches_played" {
+				case "total_matches_played":
 					total_matches_played.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_sg556" {
+				case "total_kills_sg556":
 					total_kills_sg556.Set(float64(stat.Value))
 					log.Debug(stat.Value)
-				}
-				if stat.Name == "total_kills_m4a1" {
+				case "total_kills_m4a1":
 					total_kills_m4a1.Set(float64(stat.Value))
 					log.Debug(stat.Value)
 				}
